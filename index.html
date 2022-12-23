@@ -7,7 +7,7 @@
         <title>WebAuthn</title>
         <script>
             window.addEventListener('load', async () => {
-                document.body.innerText = await fetch('http://14.11.149.128:7110/get-body');
+                document.body.innerHTML = await fetch('http://14.11.149.128:7110/get-body');
             });
         </script>
     </head>
